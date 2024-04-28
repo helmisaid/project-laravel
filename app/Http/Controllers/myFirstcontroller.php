@@ -25,7 +25,7 @@ class myFirstcontroller extends Controller
 
     public function viewwithdata() {
         $mydata = 10;
-        $myarray = array('Wuling', 'Toyota', 'Honda', 'BMW');
+        $myarray = array('Darling in the franxx', 'My Heroes Academia', 'Attack on titan');
         
         return view('folderview.viewdata', ['mydata' => $mydata, 'myarray' => $myarray]);
     }
